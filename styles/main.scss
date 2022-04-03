@@ -1,0 +1,23 @@
+:root {
+  --background-color: #1D1F28;
+  --foreground-color: #F2F2FF;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 100vh;
+  min-width: 100vw;
+
+  background-color: var(--background-color);
+  color: var(--foreground-color);
+}
